@@ -28,4 +28,8 @@ class Artist
       self.new(find_name)
     end
   end
+  
+  def print_songs
+    puts songs
+  end
 end
