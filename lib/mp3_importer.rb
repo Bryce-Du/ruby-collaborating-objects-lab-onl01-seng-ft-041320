@@ -3,6 +3,6 @@ class MP3Importer
     @path = file_path
   end
   def import
-    Dir.entries["/path/to/search/**/*.rb"]
+    Dir.entries(@path)
   end
 end
